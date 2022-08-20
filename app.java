@@ -1,4 +1,5 @@
 # list of users 
 dominion 
 simon 
-ola 
+ola
+# bugs removed
