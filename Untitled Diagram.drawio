@@ -1,106 +1,23 @@
-<mxfile host="app.diagrams.net" modified="2023-10-06T17:17:23.702Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="21.6.8" etag="a0ub0p-XlMpoUB-Dux5y" type="github">
-  <diagram name="Page-1" id="v7-0-rt_VjnH6j9GfSF8">
+<mxfile host="app.diagrams.net" modified="2023-10-06T17:21:51.913Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="21.6.8" etag="8ZhOzazXYWR_j2FWq_Hx" type="github">
+  <diagram name="Page-1" id="4IjqmFrjr1bvSUrWfSCY">
     <mxGraphModel>
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2" value="Start" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="463" width="50" height="34" as="geometry" />
+        <mxCell id="2" value="create a process flow document that includes all of the requirements to complete this project for phase 1" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="15" y="-37" width="212" height="212" as="geometry" />
         </mxCell>
-        <mxCell id="3" value="Is the CDK development environment set up?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="303" y="84" width="370" height="370" as="geometry" />
+        <mxCell id="3" value="2 weeks" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="61" y="176" width="97" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="4" value="Are the CloudFormation templates ready?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry y="523" width="348" height="348" as="geometry" />
+        <mxCell id="4" value="Part 1: CDK Service Creation Set up" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="41" y="277" width="158" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="5" value="Are the implementation requirements documented?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="125" y="1600" width="421" height="421" as="geometry" />
+        <mxCell id="5" style="endArrow=none" edge="1" parent="1" source="2" target="3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6" value="Is the process document created?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="191" y="2090" width="289" height="289" as="geometry" />
-        </mxCell>
-        <mxCell id="7" value="End" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="315" y="2447" width="41" height="34" as="geometry" />
-        </mxCell>
-        <mxCell id="8" value="Set up the CDK development environments and the CloudFormation templates" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="206" y="939" width="611" height="611" as="geometry" />
-        </mxCell>
-        <mxCell id="9" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5087500762939453;exitY=0.9941176246194279;entryX=0.5011824427424251;entryY=-0.0005405426025390625;" edge="1" parent="1" source="2" target="3">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="10" value="Yes" style="curved=1;startArrow=none;endArrow=block;exitX=0.0009628398998363598;exitY=0.8487864656156995;entryX=0.49986530172413796;entryY=-0.0006824526293524381;" edge="1" parent="1" source="3" target="4">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="174" y="488" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="11" value="Yes" style="curved=1;startArrow=none;endArrow=block;exitX=0.46459815582374686;exitY=0.9990481508189234;entryX=0.12574853587368637;entryY=0.001068930727852212;" edge="1" parent="1" source="4" target="5">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="159" y="905" />
-              <mxPoint x="159" y="1575" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="12" value="Yes" style="curved=1;startArrow=none;endArrow=block;exitX=0.46722083155772437;exitY=1.000282070132729;entryX=0.45506581572633925;entryY=-0.00028113262876094833;" edge="1" parent="1" source="5" target="6">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="319" y="2056" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="13" value="Yes" style="curved=1;startArrow=none;endArrow=block;exitX=0.45506581572633925;exitY=0.998118542469909;entryX=0.36588218005344303;entryY=0.007537056418026195;" edge="1" parent="1" source="6" target="7">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="319" y="2413" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="14" value="No" style="curved=1;startArrow=none;endArrow=block;exitX=0.9218902317906198;exitY=0.9990481508189234;entryX=0.2621548719964775;entryY=0.0007671974294509513;" edge="1" parent="1" source="4" target="8">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="350" y="905" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="15" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.4992941990616669;exitY=1.0007365300105169;entryX=0.8726407285932404;entryY=0.001068930727852212;" edge="1" parent="1" source="8" target="5">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="511" y="1575" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="16" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5311684329092023;exitY=1.000282070132729;entryX=0.5425877494659659;entryY=-0.00028113262876094833;" edge="1" parent="1" source="5" target="6">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="351" y="2056" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="17" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5425877494659659;exitY=0.998118542469909;entryX=0.6175783160581709;entryY=0.007537056418026195;" edge="1" parent="1" source="6" target="7">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="351" y="2413" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="18" value="No" style="curved=1;startArrow=none;endArrow=block;exitX=0.5527613161373047;exitY=0.9998986630826383;entryX=0.4992941990616669;entryY=0.0007671974294509513;" edge="1" parent="1" source="3" target="8">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="511" y="488" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="19" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5425420797183471;exitY=0.0007671974294509513;entryX=0.6197668410601606;entryY=0.9998986630826383;" edge="1" parent="1" source="8" target="3">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="540" y="905" />
-              <mxPoint x="540" y="488" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="6" style="endArrow=none" edge="1" parent="1" source="3" target="4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
